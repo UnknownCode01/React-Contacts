@@ -18,7 +18,7 @@ function App() {
   return (
     <div>
       <h1 className="heading">My Contacts</h1>
-      <Avatar img="https://media.licdn.com/dms/image/D5603AQGYOGdt1TB6WA/profile-displayphoto-shrink_400_400/0/1712672464220?e=1720656000&v=beta&t=PqJAVvsvd3NYagPFoum3U2yU0IEBj_-uAqPjMHkaS9w" />
+      <Avatar img="https://manga-jam.com/wp-content/uploads/part55/how_draw_madara-uchiha_naruto_10.jpg" />
       {contacts.map(createCard)}
     </div>
   );
