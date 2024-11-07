@@ -4,7 +4,7 @@ body {
   padding: 25px;
   max-width: 400px;
   min-width: 400px;
-  background-color: #dfe6e9;
+  background-color: #addaee;
   text-align: center;
 }
 
@@ -54,6 +54,15 @@ body {
   border: 7px solid #fff;
   width: 120px;
   height: 120px;
+}
+
+.circular-video {
+  width: 200px;         
+  height: 200px;        
+  border-radius: 50%;   
+  object-fit: cover;    
+  overflow: hidden;  
+  border: 7px solid #b8bbba;  
 }
 
 .bottom {

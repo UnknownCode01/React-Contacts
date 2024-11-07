@@ -1,7 +1,7 @@
 import React from "react";
 import Card from "./Card";
 import contacts from "../contacts";
-import Avatar from "./Avatar";
+import MyAvatar from "./MyAvatar";
 
 function createCard(contact) {
   return (
@@ -18,7 +18,7 @@ function App() {
   return (
     <div>
       <h1 className="heading">My Contacts</h1>
-      <Avatar img="https://manga-jam.com/wp-content/uploads/part55/how_draw_madara-uchiha_naruto_10.jpg" />
+      <MyAvatar src="/8.mp4" />
       {contacts.map(createCard)}
     </div>
   );
